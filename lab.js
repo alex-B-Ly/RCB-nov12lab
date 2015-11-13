@@ -49,5 +49,3 @@ function newStr(){
 }
 
 stringConcatButton.addEventListener('click', newStr);
-
-// Second string 

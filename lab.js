@@ -43,10 +43,11 @@ function newStr(){
   var strArea = document.getElementById('strings-area');
 
   var str = prompt('Enter a new string');
+  var str2 = prompt('Enter a second string');
 
-  strArea.textContent += " " + str;
+  strArea.textContent += str + " " + str2;
 }
 
 stringConcatButton.addEventListener('click', newStr);
 
-
+// Second string 

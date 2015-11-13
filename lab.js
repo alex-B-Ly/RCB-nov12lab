@@ -34,3 +34,6 @@ function sizeCompare(){
 }
 
 smallerInputButton.addEventListener('click', sizeCompare);
+
+// String Concat
+

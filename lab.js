@@ -37,3 +37,16 @@ smallerInputButton.addEventListener('click', sizeCompare);
 
 // String Concat
 
+var stringConcatButton = document.getElementById('string-concat-button');
+
+function newStr(){
+  var strArea = document.getElementById('strings-area');
+
+  var str = prompt('Enter a new string');
+
+  strArea.textContent += " " + str;
+}
+
+stringConcatButton.addEventListener('click', newStr);
+
+
